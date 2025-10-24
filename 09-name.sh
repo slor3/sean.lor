@@ -2,11 +2,13 @@
 
 # look up ip addresses of various search engines
 
-servers="bing.com"
+
+servers="safari.com"
 
 for server in $servers; do
     ping $server
-    echo "----------------------------"
+    echo "----------"
+
 done
 
 # exercise: Change the list of servers and also the 
